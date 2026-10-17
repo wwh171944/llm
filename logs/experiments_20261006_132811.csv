@@ -1,0 +1,2 @@
+﻿maze_name,difficulty,optimal_steps,max_steps,completed_steps,path_efficiency,token_success,kv_success,adaptive_success,token_e2e_ms,kv_e2e_ms,adaptive_e2e_ms,model_progress_moves,safety_fallback_moves,model_progress_rate,adaptive_kv_turns,adaptive_token_turns,input_tokens,output_tokens,kv_bytes,kv_size_kb,prefill_ms,decode_ms,bandwidth_mbps,max_new_tokens
+easy_5x5,简单,8,16,8,1.0,True,True,True,1537.44,547.77,547.77,1,7,0.125,8,0,1168,8,14352384,14016.0,1104.49,432.95,1000.0,16

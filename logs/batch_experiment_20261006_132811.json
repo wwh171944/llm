@@ -1,0 +1,30 @@
+{
+  "experiment_type": "full_maze_completion",
+  "num_mazes": 1,
+  "bandwidths_mbps": [
+    1000.0
+  ],
+  "max_new_tokens": 16,
+  "csv_path": "E:\\llm_project\\logs\\experiments_20261006_132811.csv",
+  "summary": [
+    {
+      "bandwidth_mbps": 1000.0,
+      "token_success": 1.0,
+      "kv_success": 1.0,
+      "adaptive_success": 1.0,
+      "token_e2e_ms": 1537.44,
+      "kv_e2e_ms": 547.77,
+      "adaptive_e2e_ms": 547.77,
+      "completed_steps": 8.0,
+      "path_efficiency": 1.0,
+      "model_progress_rate": 0.125,
+      "safety_fallback_moves": 7
+    }
+  ],
+  "mazes": [
+    {
+      "name": "easy_5x5",
+      "difficulty": "简单"
+    }
+  ]
+}

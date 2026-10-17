@@ -1,0 +1,80 @@
+{
+  "experiment_type": "full_maze_completion",
+  "num_mazes": 3,
+  "bandwidths_mbps": [
+    1,
+    10,
+    100,
+    1000
+  ],
+  "max_new_tokens": 16,
+  "csv_path": "/home/lpdai/LLM Agent Communication/WWH/logs/experiments_20261009_202904.csv",
+  "summary": [
+    {
+      "bandwidth_mbps": 1,
+      "token_success": 1.0,
+      "kv_success": 1.0,
+      "adaptive_success": 1.0,
+      "token_e2e_ms": 894.0667,
+      "kv_e2e_ms": 689768.2367,
+      "adaptive_e2e_ms": 894.0667,
+      "completed_steps": 14.0,
+      "path_efficiency": 1.0,
+      "model_progress_rate": 0.8694,
+      "safety_fallback_moves": 8
+    },
+    {
+      "bandwidth_mbps": 10,
+      "token_success": 1.0,
+      "kv_success": 1.0,
+      "adaptive_success": 1.0,
+      "token_e2e_ms": 674.7533,
+      "kv_e2e_ms": 69258.2233,
+      "adaptive_e2e_ms": 674.7533,
+      "completed_steps": 14.0,
+      "path_efficiency": 1.0,
+      "model_progress_rate": 0.8694,
+      "safety_fallback_moves": 8
+    },
+    {
+      "bandwidth_mbps": 100,
+      "token_success": 1.0,
+      "kv_success": 1.0,
+      "adaptive_success": 1.0,
+      "token_e2e_ms": 700.4733,
+      "kv_e2e_ms": 7219.6033,
+      "adaptive_e2e_ms": 700.4733,
+      "completed_steps": 14.0,
+      "path_efficiency": 1.0,
+      "model_progress_rate": 0.8694,
+      "safety_fallback_moves": 8
+    },
+    {
+      "bandwidth_mbps": 1000,
+      "token_success": 1.0,
+      "kv_success": 1.0,
+      "adaptive_success": 1.0,
+      "token_e2e_ms": 685.9867,
+      "kv_e2e_ms": 1007.7333,
+      "adaptive_e2e_ms": 685.9867,
+      "completed_steps": 14.0,
+      "path_efficiency": 1.0,
+      "model_progress_rate": 0.8694,
+      "safety_fallback_moves": 8
+    }
+  ],
+  "mazes": [
+    {
+      "name": "easy_5x5",
+      "difficulty": "简单"
+    },
+    {
+      "name": "medium_6x6",
+      "difficulty": "中等"
+    },
+    {
+      "name": "hard_7x7",
+      "difficulty": "困难"
+    }
+  ]
+}

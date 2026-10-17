@@ -1,0 +1,30 @@
+[LOG] 日志文件：E:\llm_project\logs\pc1_chat_server_20261009_162433.txt
+[LOG] 开始时间：2026-10-09T16:24:33.373557
+E:\llm_project\pc1_chat_server.py:141: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+E:\llm_project\pc1_chat_server.py:145: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("shutdown")
+INFO:     Started server process [26792]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+[PC1] 等待 PC2 连接：0.0.0.0:9003
+INFO:     Uvicorn running on http://127.0.0.1:9010 (Press CTRL+C to quit)
+INFO:     127.0.0.1:64265 - "GET /health HTTP/1.1" 200 OK
+[PC1] PC2 已连接：127.0.0.1:54192
+INFO:     127.0.0.1:54193 - "GET /health HTTP/1.1" 200 OK
+[LOG] 指标 JSON：E:\llm_project\logs\experimental_maze_20261009_162524.json
+INFO:     127.0.0.1:54207 - "POST /solve-maze HTTP/1.1" 200 OK
+[LOG] 指标 JSON：E:\llm_project\logs\experimental_maze_20261009_165524.json
+INFO:     127.0.0.1:50693 - "POST /solve-maze HTTP/1.1" 200 OK
+[LOG] 指标 JSON：E:\llm_project\logs\experimental_maze_20261009_165544.json
+INFO:     127.0.0.1:50704 - "POST /solve-maze HTTP/1.1" 200 OK

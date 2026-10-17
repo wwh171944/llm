@@ -1,0 +1,27 @@
+[LOG] 日志文件：/home/lpdai/LLM Agent Communication/WWH/logs/pc1_chat_server_20261009_203446.txt
+[LOG] 开始时间：2026-10-09T20:34:46.246540
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   3%|2         | 13/434 [00:00<00:03, 126.42it/s]Loading weights:  15%|#4        | 63/434 [00:00<00:01, 342.63it/s]Loading weights:  26%|##5       | 111/434 [00:00<00:00, 393.19it/s]Loading weights:  37%|###6      | 159/434 [00:00<00:00, 422.06it/s]Loading weights:  48%|####7     | 208/434 [00:00<00:00, 430.70it/s]Loading weights:  59%|#####8    | 256/434 [00:00<00:00, 444.36it/s]Loading weights:  73%|#######2  | 315/434 [00:00<00:00, 476.64it/s]Loading weights:  84%|########4 | 365/434 [00:00<00:00, 481.21it/s]Loading weights:  97%|#########7| 423/434 [00:00<00:00, 493.10it/s]Loading weights: 100%|##########| 434/434 [00:00<00:00, 453.83it/s]
+/home/lpdai/LLM Agent Communication/WWH/pc1_chat_server.py:210: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+/home/lpdai/LLM Agent Communication/WWH/pc1_chat_server.py:214: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("shutdown")
+[32mINFO[0m:     Started server process [[36m644512[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[PC1] 等待 PC2 连接：0.0.0.0:9003
+[32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:9010[0m (Press CTRL+C to quit)
+[PC1] PC2 已连接：127.0.0.1:34600
+[LOG] 指标 JSON：/home/lpdai/LLM Agent Communication/WWH/logs/experimental_maze_20261009_203518.json
+[32mINFO[0m:     127.0.0.1:35912 - "[1mPOST /solve-maze HTTP/1.1[0m" [32m200 OK[0m
+[LOG] 指标 JSON：/home/lpdai/LLM Agent Communication/WWH/logs/experimental_maze_20261009_203528.json
+[32mINFO[0m:     127.0.0.1:59742 - "[1mPOST /solve-maze HTTP/1.1[0m" [32m200 OK[0m

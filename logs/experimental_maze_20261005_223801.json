@@ -1,0 +1,260 @@
+{
+  "type": "experimental_maze",
+  "maze_input": ". . . . . . . . #\n. . . . # . . . .\n. . . S . . . # .\n. # . . . . . . .\n. . # . . . . . .\n. . . . . . # . #\n. . . . # . . . .\n. # . . . . . . .\n. . . # . # . . G",
+  "protocol": {
+    "PC1->PC2": "kv",
+    "PC2->PC1": "token"
+  },
+  "success": true,
+  "num_rounds": 11,
+  "final_position": [
+    8,
+    8
+  ],
+  "total_e2e_ms": 1440.0,
+  "turns": [
+    {
+      "round": 1,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "下",
+      "move_source": "safety_fallback",
+      "position": [
+        3,
+        3
+      ],
+      "maze": "   0 1 2 3 4 5 6 7 8\n0 . . . . . . . . #\n1 . . . . # . . . .\n2 . . . S . . . # .\n3 . # . * . . . . .\n4 . . # . . . . . .\n5 . . . . . . # . #\n6 . . . . # . . . .\n7 . # . . . . . . .\n8 . . . # . # . . G",
+      "reached_goal": false,
+      "payload_bytes": 2532419,
+      "prefill_ms": 232.0,
+      "decode_ms": 53.0,
+      "tx_ms": 28.0,
+      "e2e_ms": 313.0
+    },
+    {
+      "round": 2,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "下",
+      "move_source": "safety_fallback",
+      "position": [
+        4,
+        3
+      ],
+      "maze": "   0 1 2 3 4 5 6 7 8\n0 . . . . . . . . #\n1 . . . . # . . . .\n2 . . . S . . . # .\n3 . # . o . . . . .\n4 . . # * . . . . .\n5 . . . . . . # . #\n6 . . . . # . . . .\n7 . # . . . . . . .\n8 . . . # . # . . G",
+      "reached_goal": false,
+      "payload_bytes": 15,
+      "prefill_ms": 105.0,
+      "decode_ms": 0.0,
+      "tx_ms": 2.0,
+      "e2e_ms": 107.0
+    },
+    {
+      "round": 3,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "下",
+      "move_source": "safety_fallback",
+      "position": [
+        5,
+        3
+      ],
+      "maze": "   0 1 2 3 4 5 6 7 8\n0 . . . . . . . . #\n1 . . . . # . . . .\n2 . . . S . . . # .\n3 . # . o . . . . .\n4 . . # o . . . . .\n5 . . . * . . # . #\n6 . . . . # . . . .\n7 . # . . . . . . .\n8 . . . # . # . . G",
+      "reached_goal": false,
+      "payload_bytes": 2667587,
+      "prefill_ms": 54.0,
+      "decode_ms": 55.0,
+      "tx_ms": 31.0,
+      "e2e_ms": 140.0
+    },
+    {
+      "round": 4,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "下",
+      "move_source": "safety_fallback",
+      "position": [
+        6,
+        3
+      ],
+      "maze": "   0 1 2 3 4 5 6 7 8\n0 . . . . . . . . #\n1 . . . . # . . . .\n2 . . . S . . . # .\n3 . # . o . . . . .\n4 . . # o . . . . .\n5 . . . o . . # . #\n6 . . . * # . . . .\n7 . # . . . . . . .\n8 . . . # . # . . G",
+      "reached_goal": false,
+      "payload_bytes": 15,
+      "prefill_ms": 95.0,
+      "decode_ms": 0.0,
+      "tx_ms": 1.0,
+      "e2e_ms": 96.0
+    },
+    {
+      "round": 5,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "下",
+      "move_source": "safety_fallback",
+      "position": [
+        7,
+        3
+      ],
+      "maze": "   0 1 2 3 4 5 6 7 8\n0 . . . . . . . . #\n1 . . . . # . . . .\n2 . . . S . . . # .\n3 . # . o . . . . .\n4 . . # o . . . . .\n5 . . . o . . # . #\n6 . . . o # . . . .\n7 . # . * . . . . .\n8 . . . # . # . . G",
+      "reached_goal": false,
+      "payload_bytes": 2888771,
+      "prefill_ms": 48.0,
+      "decode_ms": 45.0,
+      "tx_ms": 29.0,
+      "e2e_ms": 122.0
+    },
+    {
+      "round": 6,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "右",
+      "move_source": "safety_fallback",
+      "position": [
+        7,
+        4
+      ],
+      "maze": "   0 1 2 3 4 5 6 7 8\n0 . . . . . . . . #\n1 . . . . # . . . .\n2 . . . S . . . # .\n3 . # . o . . . . .\n4 . . # o . . . . .\n5 . . . o . . # . #\n6 . . . o # . . . .\n7 . # . o * . . . .\n8 . . . # . # . . G",
+      "reached_goal": false,
+      "payload_bytes": 15,
+      "prefill_ms": 93.0,
+      "decode_ms": 0.0,
+      "tx_ms": 2.0,
+      "e2e_ms": 95.0
+    },
+    {
+      "round": 7,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "右",
+      "move_source": "safety_fallback",
+      "position": [
+        7,
+        5
+      ],
+      "maze": "   0 1 2 3 4 5 6 7 8\n0 . . . . . . . . #\n1 . . . . # . . . .\n2 . . . S . . . # .\n3 . # . o . . . . .\n4 . . # o . . . . .\n5 . . . o . . # . #\n6 . . . o # . . . .\n7 . # . o o * . . .\n8 . . . # . # . . G",
+      "reached_goal": false,
+      "payload_bytes": 2901059,
+      "prefill_ms": 46.0,
+      "decode_ms": 45.01,
+      "tx_ms": 29.0,
+      "e2e_ms": 120.01
+    },
+    {
+      "round": 8,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "右",
+      "move_source": "safety_fallback",
+      "position": [
+        7,
+        6
+      ],
+      "maze": "   0 1 2 3 4 5 6 7 8\n0 . . . . . . . . #\n1 . . . . # . . . .\n2 . . . S . . . # .\n3 . # . o . . . . .\n4 . . # o . . . . .\n5 . . . o . . # . #\n6 . . . o # . . . .\n7 . # . o o o * . .\n8 . . . # . # . . G",
+      "reached_goal": false,
+      "payload_bytes": 15,
+      "prefill_ms": 96.0,
+      "decode_ms": 0.0,
+      "tx_ms": 3.0,
+      "e2e_ms": 99.0
+    },
+    {
+      "round": 9,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "下",
+      "move_source": "safety_fallback",
+      "position": [
+        8,
+        6
+      ],
+      "maze": "   0 1 2 3 4 5 6 7 8\n0 . . . . . . . . #\n1 . . . . # . . . .\n2 . . . S . . . # .\n3 . # . o . . . . .\n4 . . # o . . . . .\n5 . . . o . . # . #\n6 . . . o # . . . .\n7 . # . o o o o . .\n8 . . . # . # * . G",
+      "reached_goal": false,
+      "payload_bytes": 2950211,
+      "prefill_ms": 55.0,
+      "decode_ms": 44.0,
+      "tx_ms": 27.99,
+      "e2e_ms": 127.0
+    },
+    {
+      "round": 10,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "右",
+      "move_source": "safety_fallback",
+      "position": [
+        8,
+        7
+      ],
+      "maze": "   0 1 2 3 4 5 6 7 8\n0 . . . . . . . . #\n1 . . . . # . . . .\n2 . . . S . . . # .\n3 . # . o . . . . .\n4 . . # o . . . . .\n5 . . . o . . # . #\n6 . . . o # . . . .\n7 . # . o o o o . .\n8 . . . # . # o * G",
+      "reached_goal": false,
+      "payload_bytes": 15,
+      "prefill_ms": 94.0,
+      "decode_ms": 0.0,
+      "tx_ms": 1.0,
+      "e2e_ms": 95.0
+    },
+    {
+      "round": 11,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "右",
+      "move_source": "safety_fallback",
+      "position": [
+        8,
+        8
+      ],
+      "maze": "   0 1 2 3 4 5 6 7 8\n0 . . . . . . . . #\n1 . . . . # . . . .\n2 . . . S . . . # .\n3 . # . o . . . . .\n4 . . # o . . . . .\n5 . . . o . . # . #\n6 . . . o # . . . .\n7 . # . o o o o . .\n8 . . . # . # o o *",
+      "reached_goal": true,
+      "payload_bytes": 2925635,
+      "prefill_ms": 46.0,
+      "decode_ms": 45.0,
+      "tx_ms": 27.0,
+      "e2e_ms": 118.0
+    }
+  ],
+  "timestamp": "2026-10-05T22:38:01.119373"
+}

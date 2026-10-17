@@ -1,0 +1,370 @@
+{
+  "type": "experimental_maze",
+  "maze_input": "S . . . .\n. # . # .\n. . # . .\n. # . # .\n# . . . G",
+  "protocol": {
+    "PC1->PC2": "kv",
+    "PC2->PC1": "token"
+  },
+  "success": false,
+  "num_rounds": 16,
+  "final_position": [
+    0,
+    4
+  ],
+  "total_e2e_ms": 2592.0,
+  "turns": [
+    {
+      "round": 1,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "下",
+      "proposed_move": "下",
+      "applied_move": "下",
+      "move_source": "model",
+      "position": [
+        1,
+        0
+      ],
+      "maze": "   0 1 2 3 4\n0 S . . . .\n1 * # . # .\n2 . . # . .\n3 . # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 1647683,
+      "prefill_ms": 209.0,
+      "decode_ms": 77.0,
+      "tx_ms": 37.0,
+      "e2e_ms": 323.0
+    },
+    {
+      "round": 2,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "下",
+      "proposed_move": "下",
+      "applied_move": "下",
+      "move_source": "model",
+      "position": [
+        2,
+        0
+      ],
+      "maze": "   0 1 2 3 4\n0 S . . . .\n1 o # . # .\n2 * . # . .\n3 . # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 15,
+      "prefill_ms": 122.0,
+      "decode_ms": 0.0,
+      "tx_ms": 2.0,
+      "e2e_ms": 124.0
+    },
+    {
+      "round": 3,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "下",
+      "proposed_move": "下",
+      "applied_move": "下",
+      "move_source": "model",
+      "position": [
+        3,
+        0
+      ],
+      "maze": "   0 1 2 3 4\n0 S . . . .\n1 o # . # .\n2 o . # . .\n3 * # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 1832003,
+      "prefill_ms": 57.0,
+      "decode_ms": 61.0,
+      "tx_ms": 31.99,
+      "e2e_ms": 150.0
+    },
+    {
+      "round": 4,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "下",
+      "proposed_move": "下",
+      "applied_move": "上",
+      "move_source": "safety_fallback",
+      "position": [
+        2,
+        0
+      ],
+      "maze": "   0 1 2 3 4\n0 S . . . .\n1 o # . # .\n2 * . # . .\n3 o # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 15,
+      "prefill_ms": 125.0,
+      "decode_ms": 0.0,
+      "tx_ms": 1.0,
+      "e2e_ms": 126.0
+    },
+    {
+      "round": 5,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "下",
+      "proposed_move": "下",
+      "applied_move": "下",
+      "move_source": "model",
+      "position": [
+        3,
+        0
+      ],
+      "maze": "   0 1 2 3 4\n0 S . . . .\n1 o # . # .\n2 o . # . .\n3 * # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 2053187,
+      "prefill_ms": 61.0,
+      "decode_ms": 72.0,
+      "tx_ms": 34.0,
+      "e2e_ms": 167.0
+    },
+    {
+      "round": 6,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "下",
+      "proposed_move": "下",
+      "applied_move": "上",
+      "move_source": "safety_fallback",
+      "position": [
+        2,
+        0
+      ],
+      "maze": "   0 1 2 3 4\n0 S . . . .\n1 o # . # .\n2 * . # . .\n3 o # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 15,
+      "prefill_ms": 143.0,
+      "decode_ms": 0.0,
+      "tx_ms": 3.0,
+      "e2e_ms": 146.0
+    },
+    {
+      "round": 7,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "下",
+      "proposed_move": "下",
+      "applied_move": "下",
+      "move_source": "model",
+      "position": [
+        3,
+        0
+      ],
+      "maze": "   0 1 2 3 4\n0 S . . . .\n1 o # . # .\n2 o . # . .\n3 * # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 2053187,
+      "prefill_ms": 69.0,
+      "decode_ms": 64.0,
+      "tx_ms": 37.0,
+      "e2e_ms": 170.0
+    },
+    {
+      "round": 8,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "上",
+      "move_source": "model",
+      "position": [
+        2,
+        0
+      ],
+      "maze": "   0 1 2 3 4\n0 S . . . .\n1 o # . # .\n2 * . # . .\n3 o # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 15,
+      "prefill_ms": 132.0,
+      "decode_ms": 0.0,
+      "tx_ms": 3.0,
+      "e2e_ms": 135.0
+    },
+    {
+      "round": 9,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "上",
+      "move_source": "model",
+      "position": [
+        1,
+        0
+      ],
+      "maze": "   0 1 2 3 4\n0 S . . . .\n1 * # . # .\n2 o . # . .\n3 o # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 2053187,
+      "prefill_ms": 74.0,
+      "decode_ms": 78.0,
+      "tx_ms": 43.0,
+      "e2e_ms": 195.0
+    },
+    {
+      "round": 10,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "上",
+      "move_source": "model",
+      "position": [
+        0,
+        0
+      ],
+      "maze": "   0 1 2 3 4\n0 * . . . .\n1 o # . # .\n2 o . # . .\n3 o # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 15,
+      "prefill_ms": 146.0,
+      "decode_ms": 0.0,
+      "tx_ms": 3.0,
+      "e2e_ms": 149.0
+    },
+    {
+      "round": 11,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "右",
+      "move_source": "safety_fallback",
+      "position": [
+        0,
+        1
+      ],
+      "maze": "   0 1 2 3 4\n0 S * . . .\n1 o # . # .\n2 o . # . .\n3 o # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 2028611,
+      "prefill_ms": 66.0,
+      "decode_ms": 70.0,
+      "tx_ms": 31.0,
+      "e2e_ms": 167.0
+    },
+    {
+      "round": 12,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "右",
+      "move_source": "safety_fallback",
+      "position": [
+        0,
+        2
+      ],
+      "maze": "   0 1 2 3 4\n0 S o * . .\n1 o # . # .\n2 o . # . .\n3 o # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 15,
+      "prefill_ms": 138.0,
+      "decode_ms": 0.0,
+      "tx_ms": 2.0,
+      "e2e_ms": 140.0
+    },
+    {
+      "round": 13,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "右",
+      "move_source": "safety_fallback",
+      "position": [
+        0,
+        3
+      ],
+      "maze": "   0 1 2 3 4\n0 S o o * .\n1 o # . # .\n2 o . # . .\n3 o # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 2077763,
+      "prefill_ms": 65.0,
+      "decode_ms": 55.0,
+      "tx_ms": 29.0,
+      "e2e_ms": 149.0
+    },
+    {
+      "round": 14,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "右",
+      "move_source": "safety_fallback",
+      "position": [
+        0,
+        4
+      ],
+      "maze": "   0 1 2 3 4\n0 S o o o *\n1 o # . # .\n2 o . # . .\n3 o # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 15,
+      "prefill_ms": 142.0,
+      "decode_ms": 0.0,
+      "tx_ms": 4.0,
+      "e2e_ms": 146.0
+    },
+    {
+      "round": 15,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "下",
+      "move_source": "safety_fallback",
+      "position": [
+        1,
+        4
+      ],
+      "maze": "   0 1 2 3 4\n0 S o o o o\n1 o # . # *\n2 o . # . .\n3 o # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 2077763,
+      "prefill_ms": 78.0,
+      "decode_ms": 67.0,
+      "tx_ms": 35.0,
+      "e2e_ms": 180.0
+    },
+    {
+      "round": 16,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "上",
+      "move_source": "model",
+      "position": [
+        0,
+        4
+      ],
+      "maze": "   0 1 2 3 4\n0 S o o o *\n1 o # . # o\n2 o . # . .\n3 o # . # .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 15,
+      "prefill_ms": 116.0,
+      "decode_ms": 0.0,
+      "tx_ms": 4.0,
+      "e2e_ms": 120.0
+    }
+  ],
+  "timestamp": "2026-10-05T22:10:58.658473"
+}

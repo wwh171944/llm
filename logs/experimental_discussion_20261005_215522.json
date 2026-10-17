@@ -1,0 +1,73 @@
+{
+  "type": "experimental_discussion",
+  "question": "介绍一下泰勒展开",
+  "protocol": {
+    "PC1->PC2": "kv",
+    "PC2->PC1": "token"
+  },
+  "num_rounds": 4,
+  "total_e2e_ms": 4484.76,
+  "turns": [
+    {
+      "round": 1,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "泰勒展开是一种数学方法，用于解决线性方程组。",
+      "input_tokens": 102,
+      "output_tokens": 15,
+      "payload_bytes": 1266755,
+      "prefill_ms": 798.0,
+      "decode_ms": 1285.51,
+      "tx_ms": 182.0,
+      "e2e_ms": 2265.51
+    },
+    {
+      "round": 2,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "泰勒展开是一种数学方法，用于解决线性方程组。",
+      "input_tokens": 119,
+      "output_tokens": 16,
+      "payload_bytes": 118,
+      "prefill_ms": 823.45,
+      "decode_ms": 0.0,
+      "tx_ms": 51.0,
+      "e2e_ms": 874.45
+    },
+    {
+      "round": 3,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "泰勒展开是一种数学方法，用于解决线性方程组。",
+      "input_tokens": 142,
+      "output_tokens": 15,
+      "payload_bytes": 1758275,
+      "prefill_ms": 51.8,
+      "decode_ms": 602.0,
+      "tx_ms": 25.0,
+      "e2e_ms": 678.8
+    },
+    {
+      "round": 4,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "泰勒展开是一种数学方法，用于解决线性方程组。",
+      "input_tokens": 157,
+      "output_tokens": 16,
+      "payload_bytes": 118,
+      "prefill_ms": 662.0,
+      "decode_ms": 0.0,
+      "tx_ms": 3.0,
+      "e2e_ms": 665.0
+    }
+  ],
+  "timestamp": "2026-10-05T21:55:22.507665"
+}

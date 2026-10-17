@@ -1,0 +1,42 @@
+[LOG] 日志文件：E:\llm_project\logs\pc1_chat_server_20261009_165839.txt
+[LOG] 开始时间：2026-10-09T16:58:39.167769
+E:\llm_project\pc1_chat_server.py:141: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+E:\llm_project\pc1_chat_server.py:145: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("shutdown")
+[32mINFO[0m:     Started server process [[36m31960[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[PC1] 等待 PC2 连接：0.0.0.0:9003
+[32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:9010[0m (Press CTRL+C to quit)
+[PC1] PC2 已连接：127.0.0.1:54814
+[LOG] 指标 JSON：E:\llm_project\logs\experimental_maze_20261009_165854.json
+[32mINFO[0m:     127.0.0.1:54819 - "[1mPOST /solve-maze HTTP/1.1[0m" [32m200 OK[0m
+[LOG] 指标 JSON：E:\llm_project\logs\experimental_maze_20261009_170004.json
+[32mINFO[0m:     127.0.0.1:64442 - "[1mPOST /solve-maze HTTP/1.1[0m" [32m200 OK[0m
+[LOG] 指标 JSON：E:\llm_project\logs\experimental_maze_20261009_170030.json
+[32mINFO[0m:     127.0.0.1:63474 - "[1mPOST /solve-maze HTTP/1.1[0m" [32m200 OK[0m
+[LOG] 指标 JSON：E:\llm_project\logs\experimental_maze_20261009_170034.json
+[32mINFO[0m:     127.0.0.1:53588 - "[1mPOST /solve-maze HTTP/1.1[0m" [32m200 OK[0m
+[LOG] 指标 JSON：E:\llm_project\logs\experimental_maze_20261009_170135.json
+[32mINFO[0m:     127.0.0.1:59499 - "[1mPOST /solve-maze HTTP/1.1[0m" [32m200 OK[0m
+[LOG] 指标 JSON：E:\llm_project\logs\experimental_maze_20261009_170757.json
+[32mINFO[0m:     127.0.0.1:64761 - "[1mPOST /solve-maze HTTP/1.1[0m" [32m200 OK[0m
+[LOG] 指标 JSON：E:\llm_project\logs\experimental_maze_20261009_171217.json
+[32mINFO[0m:     127.0.0.1:61172 - "[1mPOST /solve-maze HTTP/1.1[0m" [32m200 OK[0m
+[LOG] 指标 JSON：E:\llm_project\logs\experimental_maze_20261009_171243.json
+[32mINFO[0m:     127.0.0.1:56698 - "[1mPOST /solve-maze HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m31960[0m]

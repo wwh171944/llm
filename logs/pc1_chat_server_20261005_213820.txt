@@ -1,0 +1,45 @@
+[LOG] 日志文件：E:\llm_project\logs\pc1_chat_server_20261005_213820.txt
+[LOG] 开始时间：2026-10-05T21:38:20.714436
+E:\llm_project\pc1_chat_server.py:72: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+E:\llm_project\pc1_chat_server.py:76: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("shutdown")
+Traceback (most recent call last):
+  File "E:\conda_envs\llm\lib\logging\config.py", line 544, in configure
+    formatters[name] = self.configure_formatter(
+  File "E:\conda_envs\llm\lib\logging\config.py", line 656, in configure_formatter
+    result = self.configure_custom(config)
+  File "E:\conda_envs\llm\lib\logging\config.py", line 475, in configure_custom
+    result = c(**kwargs)
+  File "E:\conda_envs\llm\lib\site-packages\uvicorn\logging.py", line 42, in __init__
+    self.use_colors = sys.stdout.isatty()
+AttributeError: 'Tee' object has no attribute 'isatty'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\llm_project\pc1_chat_server.py", line 167, in <module>
+    main()
+  File "E:\llm_project\pc1_chat_server.py", line 159, in main
+    uvicorn.run(
+  File "E:\conda_envs\llm\lib\site-packages\uvicorn\main.py", line 561, in run
+    config = Config(
+  File "E:\conda_envs\llm\lib\site-packages\uvicorn\config.py", line 303, in __init__
+    self.configure_logging()
+  File "E:\conda_envs\llm\lib\site-packages\uvicorn\config.py", line 398, in configure_logging
+    logging.config.dictConfig(self.log_config)
+  File "E:\conda_envs\llm\lib\logging\config.py", line 811, in dictConfig
+    dictConfigClass(config).configure()
+  File "E:\conda_envs\llm\lib\logging\config.py", line 547, in configure
+    raise ValueError('Unable to configure '
+ValueError: Unable to configure formatter 'default'

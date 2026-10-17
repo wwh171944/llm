@@ -1,0 +1,29 @@
+[LOG] 日志文件：/home/lpdai/LLM Agent Communication/WWH/logs/pc1_chat_server_20261016_155849.txt
+[LOG] 开始时间：2026-10-16T15:58:49.990197
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   3%|3         | 15/434 [00:00<00:03, 133.86it/s]Loading weights:  15%|#4        | 65/434 [00:00<00:01, 334.46it/s]Loading weights:  28%|##8       | 123/434 [00:00<00:00, 428.63it/s]Loading weights:  39%|###9      | 171/434 [00:00<00:00, 443.11it/s]Loading weights:  53%|#####3    | 231/434 [00:00<00:00, 480.78it/s]Loading weights:  65%|######4   | 281/434 [00:00<00:00, 486.43it/s]Loading weights:  78%|#######8  | 339/434 [00:00<00:00, 496.67it/s]Loading weights:  90%|########9 | 389/434 [00:00<00:00, 494.79it/s]Loading weights: 100%|##########| 434/434 [00:00<00:00, 469.90it/s]
+/home/lpdai/LLM Agent Communication/WWH/pc1_chat_server.py:210: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+/home/lpdai/LLM Agent Communication/WWH/pc1_chat_server.py:214: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("shutdown")
+[32mINFO[0m:     Started server process [[36m403410[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[PC1] 等待 PC2 连接：0.0.0.0:9003
+[32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:9010[0m (Press CTRL+C to quit)
+[PC1] PC2 已连接：127.0.0.1:58494
+[LOG] 指标 JSON：/home/lpdai/LLM Agent Communication/WWH/logs/experimental_maze_20261016_155939.json
+[32mINFO[0m:     127.0.0.1:47110 - "[1mPOST /solve-maze HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m403410[0m]

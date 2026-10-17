@@ -1,0 +1,30 @@
+[LOG] 日志文件：E:\llm_project\logs\pc1_chat_server_20261005_213937.txt
+[LOG] 开始时间：2026-10-05T21:39:37.293549
+E:\llm_project\pc1_chat_server.py:72: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+E:\llm_project\pc1_chat_server.py:76: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("shutdown")
+[32mINFO[0m:     Started server process [[36m28140[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[PC1] 等待 PC2 连接：0.0.0.0:9003
+[32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:9010[0m (Press CTRL+C to quit)
+[PC1] PC2 已连接：127.0.0.1:56626
+[LOG] 指标 JSON：E:\llm_project\logs\experimental_discussion_20261005_213959.json
+[32mINFO[0m:     127.0.0.1:61329 - "[1mPOST /discuss HTTP/1.1[0m" [32m200 OK[0m
+[LOG] 指标 JSON：E:\llm_project\logs\experimental_discussion_20261005_214035.json
+[32mINFO[0m:     127.0.0.1:56955 - "[1mPOST /discuss HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m28140[0m]

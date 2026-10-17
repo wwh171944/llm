@@ -1,0 +1,97 @@
+{
+  "type": "experimental_maze",
+  "maze_input": ". . . . .\n. S . . .\n. . . . .\n. . G . .\n. . . . .",
+  "protocol": "adaptive",
+  "bandwidth_mbps": 1000.0,
+  "success": true,
+  "num_rounds": 3,
+  "final_position": [
+    3,
+    2
+  ],
+  "total_e2e_ms": 622.0,
+  "turns": [
+    {
+      "round": 1,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "下",
+      "move_source": "safety_fallback",
+      "position": [
+        2,
+        1
+      ],
+      "maze": "   0 1 2 3 4\n0 . . . . .\n1 . S . . .\n2 . * . . .\n3 . . G . .\n4 . . . . .",
+      "reached_goal": false,
+      "payload_bytes": 1684547,
+      "bandwidth_mbps": 1000.0,
+      "selection_reason": "t_kv(13.5) < t_token(290.0)",
+      "estimated_token_e2e_ms": 290.0,
+      "estimated_kv_e2e_ms": 13.48,
+      "selection_kv_bytes": 1684547,
+      "prefill_ms": 290.0,
+      "decode_ms": 53.0,
+      "tx_ms": 48.0,
+      "e2e_ms": 391.0
+    },
+    {
+      "round": 2,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "下",
+      "move_source": "safety_fallback",
+      "position": [
+        3,
+        1
+      ],
+      "maze": "   0 1 2 3 4\n0 . . . . .\n1 . S . . .\n2 . o . . .\n3 . * G . .\n4 . . . . .",
+      "reached_goal": false,
+      "payload_bytes": 1733699,
+      "bandwidth_mbps": 1000.0,
+      "selection_reason": "t_kv(13.9) < t_token(55.0)",
+      "estimated_token_e2e_ms": 55.0,
+      "estimated_kv_e2e_ms": 13.87,
+      "selection_kv_bytes": 1733699,
+      "prefill_ms": 55.0,
+      "decode_ms": 44.0,
+      "tx_ms": 21.0,
+      "e2e_ms": 120.0
+    },
+    {
+      "round": 3,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "上",
+      "proposed_move": "上",
+      "applied_move": "右",
+      "move_source": "safety_fallback",
+      "position": [
+        3,
+        2
+      ],
+      "maze": "   0 1 2 3 4\n0 . . . . .\n1 . S . . .\n2 . o . . .\n3 . o * . .\n4 . . . . .",
+      "reached_goal": true,
+      "payload_bytes": 1844291,
+      "bandwidth_mbps": 1000.0,
+      "selection_reason": "t_kv(14.8) < t_token(43.0)",
+      "estimated_token_e2e_ms": 43.0,
+      "estimated_kv_e2e_ms": 14.75,
+      "selection_kv_bytes": 1844291,
+      "prefill_ms": 43.0,
+      "decode_ms": 45.0,
+      "tx_ms": 22.0,
+      "e2e_ms": 110.0
+    }
+  ],
+  "timestamp": "2026-10-09T17:07:57.810188"
+}

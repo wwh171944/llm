@@ -1,0 +1,73 @@
+{
+  "type": "experimental_discussion",
+  "question": "介绍一下柯西中值定理",
+  "protocol": {
+    "PC1->PC2": "kv",
+    "PC2->PC1": "token"
+  },
+  "num_rounds": 4,
+  "total_e2e_ms": 11416.2,
+  "turns": [
+    {
+      "round": 1,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "柯西中值定理的核心定义是：对于函数f(x)，如果存在实数a，使得对于所有x在区间[a, b]内，都有f'(x) = 0，那么x = a是函数f(x)的极值点。关键推理是利用导数的性质和",
+      "input_tokens": 105,
+      "output_tokens": 65,
+      "payload_bytes": 1303619,
+      "prefill_ms": 171.0,
+      "decode_ms": 2785.0,
+      "tx_ms": 29.0,
+      "e2e_ms": 2985.0
+    },
+    {
+      "round": 2,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "柯西中值定理的核心定义是：对于函数f(x)，如果存在实数a，使得对于所有x在区间[a, b]内，都有f'(x) = 0，那么x = a是函数f(x)的极值点。关键推理是利用导数的性质",
+      "input_tokens": 173,
+      "output_tokens": 64,
+      "payload_bytes": 400,
+      "prefill_ms": 2693.0,
+      "decode_ms": 0.0,
+      "tx_ms": 4.0,
+      "e2e_ms": 2697.0
+    },
+    {
+      "round": 3,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "柯西中值定理的核心定义是：对于函数f(x)，如果存在实数a，使得对于所有x在区间[a, b]内，都有f'(x) = 0，那么x = a是函数f(x)的极值点。关键推理是利用导数的性质和",
+      "input_tokens": 246,
+      "output_tokens": 65,
+      "payload_bytes": 3036227,
+      "prefill_ms": 50.99,
+      "decode_ms": 2607.0,
+      "tx_ms": 25.01,
+      "e2e_ms": 2683.0
+    },
+    {
+      "round": 4,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "柯西中值定理的核心定义是：对于函数f(x)，如果存在实数a，使得对于所有x在区间[a, b]内，都有f'(x) = 0，那么x = a是函数f(x)的极值点。关键推理是利用导数的性质",
+      "input_tokens": 312,
+      "output_tokens": 64,
+      "payload_bytes": 400,
+      "prefill_ms": 3048.2,
+      "decode_ms": 0.0,
+      "tx_ms": 2.0,
+      "e2e_ms": 3050.2
+    }
+  ],
+  "timestamp": "2026-10-05T21:55:48.528745"
+}

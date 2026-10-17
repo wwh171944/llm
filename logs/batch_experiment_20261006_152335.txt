@@ -1,0 +1,43 @@
+[LOG] 日志文件：E:\llm_project\logs\batch_experiment_20261006_152335.txt
+[LOG] 开始时间：2026-10-06T15:23:35.044286
+
+============================================================
+带宽：1 Mbps
+============================================================
+easy_5x5: 通关，8/8 步，token=1269.3ms，kv=115223.4ms，adaptive=1269.3ms
+medium_6x6: 通关，10/10 步，token=920.0ms，kv=157742.3ms，adaptive=920.0ms
+hard_7x7: 通关，24/24 步，token=2087.5ms，kv=418544.4ms，adaptive=2087.5ms
+
+============================================================
+带宽：10 Mbps
+============================================================
+easy_5x5: 通关，8/8 步，token=767.5ms，kv=11870.2ms，adaptive=767.5ms
+medium_6x6: 通关，10/10 步，token=929.2ms，kv=16188.2ms，adaptive=929.2ms
+hard_7x7: 通关，24/24 步，token=2362.0ms，kv=42937.1ms，adaptive=2362.0ms
+
+============================================================
+带宽：100 Mbps
+============================================================
+easy_5x5: 通关，8/8 步，token=738.2ms，kv=1514.5ms，adaptive=738.2ms
+medium_6x6: 通关，10/10 步，token=929.5ms，kv=2038.3ms，adaptive=929.5ms
+hard_7x7: 通关，24/24 步，token=2391.5ms，kv=5368.3ms，adaptive=2391.5ms
+
+============================================================
+带宽：1000 Mbps
+============================================================
+easy_5x5: 通关，8/8 步，token=716.0ms，kv=470.4ms，adaptive=470.4ms
+medium_6x6: 通关，10/10 步，token=925.5ms，kv=614.8ms，adaptive=614.8ms
+hard_7x7: 通关，24/24 步，token=2410.2ms，kv=1623.5ms，adaptive=1623.5ms
+
+========== 完整迷宫实验汇总 ==========
+                token_success  kv_success  ...  model_progress_rate  safety_fallback_moves
+bandwidth_mbps                             ...                                            
+1                         1.0         1.0  ...               0.1028                     38
+10                        1.0         1.0  ...               0.1028                     38
+100                       1.0         1.0  ...               0.1028                     38
+1000                      1.0         1.0  ...               0.1028                     38
+
+[4 rows x 10 columns]
+
+CSV 已保存：E:\llm_project\logs\experiments_20261006_152357.csv
+[LOG] 指标 JSON：E:\llm_project\logs\batch_experiment_20261006_152357.json

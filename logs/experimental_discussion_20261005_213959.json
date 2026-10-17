@@ -1,0 +1,73 @@
+{
+  "type": "experimental_discussion",
+  "question": "5的5次方是多少",
+  "protocol": {
+    "PC1->PC2": "kv",
+    "PC2->PC1": "token"
+  },
+  "num_rounds": 4,
+  "total_e2e_ms": 4499.39,
+  "turns": [
+    {
+      "round": 1,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "5的5次方是125。",
+      "input_tokens": 70,
+      "output_tokens": 10,
+      "payload_bytes": 873539,
+      "prefill_ms": 451.31,
+      "decode_ms": 838.88,
+      "tx_ms": 83.02,
+      "e2e_ms": 1373.21
+    },
+    {
+      "round": 2,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "接下来，Agent-A可以提供一个更详细的解答：\n\n5的5次方等于125。",
+      "input_tokens": 78,
+      "output_tokens": 22,
+      "payload_bytes": 140,
+      "prefill_ms": 1181.77,
+      "decode_ms": 0.0,
+      "tx_ms": 20.41,
+      "e2e_ms": 1202.18
+    },
+    {
+      "round": 3,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "接下来，Agent-A可以提供一个更详细的解答：5的5次方等于125。",
+      "input_tokens": 102,
+      "output_tokens": 21,
+      "payload_bytes": 1266755,
+      "prefill_ms": 45.0,
+      "decode_ms": 915.0,
+      "tx_ms": 20.0,
+      "e2e_ms": 980.0
+    },
+    {
+      "round": 4,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "接下来，Agent-A可以提供一个更详细的解答：5的5次方等于125。",
+      "input_tokens": 126,
+      "output_tokens": 22,
+      "payload_bytes": 139,
+      "prefill_ms": 941.0,
+      "decode_ms": 0.0,
+      "tx_ms": 3.0,
+      "e2e_ms": 944.0
+    }
+  ],
+  "timestamp": "2026-10-05T21:39:59.754694"
+}

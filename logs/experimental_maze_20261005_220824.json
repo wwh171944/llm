@@ -1,0 +1,84 @@
+{
+  "type": "experimental_maze",
+  "maze_input": "S . . . .\n. # . # .\n. . # . #\n. # . . .\n# . . . G",
+  "protocol": {
+    "PC1->PC2": "kv",
+    "PC2->PC1": "token"
+  },
+  "success": false,
+  "num_rounds": 3,
+  "final_position": [
+    3,
+    0
+  ],
+  "total_e2e_ms": 551.0,
+  "turns": [
+    {
+      "round": 1,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "下",
+      "proposed_move": "下",
+      "applied_move": "下",
+      "move_source": "model",
+      "position": [
+        1,
+        0
+      ],
+      "maze": "   0 1 2 3 4\n0 S . . . .\n1 * # . # .\n2 . . # . #\n3 . # . . .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 1647683,
+      "prefill_ms": 200.0,
+      "decode_ms": 43.0,
+      "tx_ms": 27.0,
+      "e2e_ms": 270.0
+    },
+    {
+      "round": 2,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "下",
+      "proposed_move": "下",
+      "applied_move": "下",
+      "move_source": "model",
+      "position": [
+        2,
+        0
+      ],
+      "maze": "   0 1 2 3 4\n0 S . . . .\n1 o # . # .\n2 * . # . #\n3 . # . . .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 15,
+      "prefill_ms": 86.0,
+      "decode_ms": 0.0,
+      "tx_ms": 1.0,
+      "e2e_ms": 87.0
+    },
+    {
+      "round": 3,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "下",
+      "proposed_move": "下",
+      "applied_move": "下",
+      "move_source": "model",
+      "position": [
+        3,
+        0
+      ],
+      "maze": "   0 1 2 3 4\n0 S . . . .\n1 o # . # .\n2 o . # . #\n3 * # . . .\n4 # . . . G",
+      "reached_goal": false,
+      "payload_bytes": 1832003,
+      "prefill_ms": 44.0,
+      "decode_ms": 42.0,
+      "tx_ms": 20.0,
+      "e2e_ms": 106.0
+    }
+  ],
+  "timestamp": "2026-10-05T22:08:24.121452"
+}

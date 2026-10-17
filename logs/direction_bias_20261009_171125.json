@@ -1,0 +1,80 @@
+{
+  "model_path": "E:\\llm_project\\models\\Qwen2.5-0.5B-Instruct",
+  "results": [
+    {
+      "case": "only_up",
+      "expected_direction": "上",
+      "legal_moves": [
+        "上"
+      ],
+      "token_answer": "方向：上；\n理由：当前位置到出口的距离是3步，而当前位置",
+      "token_direction": "上",
+      "kv_answer": "方向：上；理由：当前位置更接近出口。",
+      "kv_direction": "上",
+      "kv_payload_bytes": 2200643
+    },
+    {
+      "case": "only_down",
+      "expected_direction": "下",
+      "legal_moves": [
+        "下"
+      ],
+      "token_answer": "方向：下；\n理由：当前位置和出口之间的曼哈顿距离是",
+      "token_direction": "下",
+      "kv_answer": "方向：下；理由：当前位置与出口的曼哈顿距离为1",
+      "kv_direction": "下",
+      "kv_payload_bytes": 2200643
+    },
+    {
+      "case": "only_left",
+      "expected_direction": "左",
+      "legal_moves": [
+        "左"
+      ],
+      "token_answer": "方向：左；\n理由：当前位置和出口之间的曼哈顿距离是",
+      "token_direction": "左",
+      "kv_answer": "方向：左；理由：当前位置与出口的曼哈顿距离为1",
+      "kv_direction": "左",
+      "kv_payload_bytes": 2200643
+    },
+    {
+      "case": "only_right",
+      "expected_direction": "右",
+      "legal_moves": [
+        "右"
+      ],
+      "token_answer": "方向：右；\n理由：当前位置和出口之间的曼哈顿距离是",
+      "token_direction": "右",
+      "kv_answer": "方向：右；理由：当前位置与出口的曼哈顿距离为1",
+      "kv_direction": "右",
+      "kv_payload_bytes": 2212931
+    },
+    {
+      "case": "open_5x5_goal_down_right",
+      "expected_direction": "下或右",
+      "legal_moves": [
+        "上",
+        "下",
+        "左",
+        "右"
+      ],
+      "token_answer": "方向：左；\n理由：当前位置和出口之间的曼哈顿距离是",
+      "token_direction": "左",
+      "kv_answer": "方向：左；理由：下一列-出口列的距离最小。",
+      "kv_direction": "左",
+      "kv_payload_bytes": 2544707
+    }
+  ],
+  "token_direction_counts": {
+    "上": 1,
+    "下": 1,
+    "左": 2,
+    "右": 1
+  },
+  "kv_direction_counts": {
+    "上": 1,
+    "下": 1,
+    "左": 2,
+    "右": 1
+  }
+}

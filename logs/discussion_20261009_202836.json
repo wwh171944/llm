@@ -1,0 +1,168 @@
+{
+  "task_type": "maze",
+  "num_tasks": 1,
+  "success_rate": 1.0,
+  "results": [
+    {
+      "type": "maze_discussion",
+      "model": "Qwen2.5-0.5B-Instruct",
+      "task": "走迷宫：从 S 到 G",
+      "protocol": {
+        "PC1->PC2": "kv",
+        "PC2->PC1": "token"
+      },
+      "steps_per_round": 2,
+      "num_rounds": 4,
+      "success": true,
+      "total_steps": 8,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        4,
+        4
+      ],
+      "final_position": [
+        4,
+        4
+      ],
+      "final_answer": "到达终点，共走 8 步",
+      "agents": [
+        "Agent-A",
+        "Agent-B"
+      ],
+      "turns": [
+        {
+          "round": 1,
+          "sender": "Agent-A",
+          "receiver": "Agent-B",
+          "agent": "Agent-B",
+          "direction": "PC1->PC2",
+          "content": "右 下",
+          "mode": "kv",
+          "input_tokens": 208,
+          "output_tokens": 2,
+          "payload_bytes": 7688200,
+          "kv_size_kb": 7508.01,
+          "prefill_ms": 471.82,
+          "decode_ms": 571.94,
+          "tx_ms": 100.03328323364258,
+          "e2e_ms": 1143.8,
+          "timestamp": "2026-10-09T20:28:36.203746",
+          "moves_proposed": [
+            "右",
+            "下"
+          ],
+          "moves_applied": [
+            "下",
+            "下"
+          ],
+          "position": [
+            2,
+            0
+          ],
+          "maze": "   0 1 2 3 4\n0 S . . . .\n1 o # # # .\n2 * . . # .\n3 # . . # .\n4 . . . . G",
+          "reached_goal": false
+        },
+        {
+          "round": 2,
+          "sender": "Agent-B",
+          "receiver": "Agent-A",
+          "agent": "Agent-A",
+          "direction": "PC2->PC1",
+          "content": "右 下",
+          "mode": "token",
+          "input_tokens": 220,
+          "output_tokens": 3,
+          "payload_bytes": 22,
+          "kv_size_kb": 0,
+          "prefill_ms": 192.05,
+          "decode_ms": 0.0,
+          "tx_ms": 68.76611709594727,
+          "e2e_ms": 260.81,
+          "timestamp": "2026-10-09T20:28:36.465177",
+          "moves_proposed": [
+            "右",
+            "下"
+          ],
+          "moves_applied": [
+            "右",
+            "下"
+          ],
+          "position": [
+            3,
+            1
+          ],
+          "maze": "   0 1 2 3 4\n0 S . . . .\n1 o # # # .\n2 o o . # .\n3 # * . # .\n4 . . . . G",
+          "reached_goal": false
+        },
+        {
+          "round": 3,
+          "sender": "Agent-A",
+          "receiver": "Agent-B",
+          "agent": "Agent-B",
+          "direction": "PC1->PC2",
+          "content": "右 下",
+          "mode": "kv",
+          "input_tokens": 234,
+          "output_tokens": 2,
+          "payload_bytes": 8646664,
+          "kv_size_kb": 8444.01,
+          "prefill_ms": 31.99,
+          "decode_ms": 49.23,
+          "tx_ms": 36.710500717163086,
+          "e2e_ms": 117.93,
+          "timestamp": "2026-10-09T20:28:36.583548",
+          "moves_proposed": [
+            "右",
+            "下"
+          ],
+          "moves_applied": [
+            "下",
+            "右"
+          ],
+          "position": [
+            4,
+            2
+          ],
+          "maze": "   0 1 2 3 4\n0 S . . . .\n1 o # # # .\n2 o o . # .\n3 # o . # .\n4 . o * . G",
+          "reached_goal": false
+        },
+        {
+          "round": 4,
+          "sender": "Agent-B",
+          "receiver": "Agent-A",
+          "agent": "Agent-A",
+          "direction": "PC2->PC1",
+          "content": "右 下",
+          "mode": "token",
+          "input_tokens": 246,
+          "output_tokens": 3,
+          "payload_bytes": 22,
+          "kv_size_kb": 0,
+          "prefill_ms": 81.62,
+          "decode_ms": 0.0,
+          "tx_ms": 43.64657402038574,
+          "e2e_ms": 125.27,
+          "timestamp": "2026-10-09T20:28:36.709134",
+          "moves_proposed": [
+            "右",
+            "下"
+          ],
+          "moves_applied": [
+            "右",
+            "右"
+          ],
+          "position": [
+            4,
+            4
+          ],
+          "maze": "   0 1 2 3 4\n0 S . . . .\n1 o # # # .\n2 o o . # .\n3 # o . # .\n4 . o o o *",
+          "reached_goal": true
+        }
+      ],
+      "timestamp": "2026-10-09T20:28:36.709395"
+    }
+  ]
+}

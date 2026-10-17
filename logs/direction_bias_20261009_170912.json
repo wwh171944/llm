@@ -1,0 +1,80 @@
+{
+  "model_path": "E:\\llm_project\\models\\Qwen2.5-0.5B-Instruct",
+  "results": [
+    {
+      "case": "only_up",
+      "expected_direction": "上",
+      "legal_moves": [
+        "上"
+      ],
+      "token_answer": "上",
+      "token_direction": "上",
+      "kv_answer": "上",
+      "kv_direction": "上",
+      "kv_payload_bytes": 1365059
+    },
+    {
+      "case": "only_down",
+      "expected_direction": "下",
+      "legal_moves": [
+        "下"
+      ],
+      "token_answer": "下",
+      "token_direction": "下",
+      "kv_answer": "下",
+      "kv_direction": "下",
+      "kv_payload_bytes": 1365059
+    },
+    {
+      "case": "only_left",
+      "expected_direction": "左",
+      "legal_moves": [
+        "左"
+      ],
+      "token_answer": "左",
+      "token_direction": "左",
+      "kv_answer": "左",
+      "kv_direction": "左",
+      "kv_payload_bytes": 1365059
+    },
+    {
+      "case": "only_right",
+      "expected_direction": "右",
+      "legal_moves": [
+        "右"
+      ],
+      "token_answer": "右",
+      "token_direction": "右",
+      "kv_answer": "右",
+      "kv_direction": "右",
+      "kv_payload_bytes": 1377347
+    },
+    {
+      "case": "open_5x5_goal_down_right",
+      "expected_direction": "下或右",
+      "legal_moves": [
+        "上",
+        "下",
+        "左",
+        "右"
+      ],
+      "token_answer": "上",
+      "token_direction": "上",
+      "kv_answer": "上",
+      "kv_direction": "上",
+      "kv_payload_bytes": 1709123
+    }
+  ],
+  "token_direction_counts": {
+    "上": 2,
+    "下": 1,
+    "左": 1,
+    "右": 1
+  },
+  "kv_direction_counts": {
+    "上": 2,
+    "下": 1,
+    "左": 1,
+    "右": 1
+  }
+}

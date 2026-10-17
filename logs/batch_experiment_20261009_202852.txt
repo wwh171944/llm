@@ -1,0 +1,44 @@
+[LOG] 日志文件：/home/lpdai/LLM Agent Communication/WWH/logs/batch_experiment_20261009_202852.txt
+[LOG] 开始时间：2026-10-09T20:28:52.860375
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   1%|1         | 5/434 [00:00<00:08, 49.74it/s]Loading weights:  15%|#4        | 63/434 [00:00<00:01, 346.12it/s]Loading weights:  26%|##6       | 113/434 [00:00<00:00, 405.13it/s]Loading weights:  39%|###9      | 171/434 [00:00<00:00, 459.25it/s]Loading weights:  51%|#####     | 220/434 [00:00<00:00, 463.11it/s]Loading weights:  64%|######4   | 279/434 [00:00<00:00, 492.91it/s]Loading weights:  76%|#######5  | 329/434 [00:00<00:00, 490.88it/s]Loading weights:  89%|########9 | 387/434 [00:00<00:00, 499.08it/s]Loading weights: 100%|##########| 434/434 [00:00<00:00, 475.06it/s]
+
+============================================================
+带宽：1 Mbps
+============================================================
+easy_5x5: 通关，8/8 步，token=966.8ms，kv=344167.8ms，adaptive=966.8ms
+medium_6x6: 通关，10/10 步，token=504.5ms，kv=472089.7ms，adaptive=504.5ms
+hard_7x7: 通关，24/24 步，token=1210.9ms，kv=1253047.3ms，adaptive=1210.9ms
+
+============================================================
+带宽：10 Mbps
+============================================================
+easy_5x5: 通关，8/8 步，token=378.1ms，kv=34564.8ms，adaptive=378.1ms
+medium_6x6: 通关，10/10 步，token=502.9ms，kv=47407.8ms，adaptive=502.9ms
+hard_7x7: 通关，24/24 步，token=1143.2ms，kv=125802.0ms，adaptive=1143.2ms
+
+============================================================
+带宽：100 Mbps
+============================================================
+easy_5x5: 通关，8/8 步，token=438.1ms，kv=3636.4ms，adaptive=438.1ms
+medium_6x6: 通关，10/10 步，token=492.3ms，kv=4946.4ms，adaptive=492.3ms
+hard_7x7: 通关，24/24 步，token=1171.1ms，kv=13075.9ms，adaptive=1171.1ms
+
+============================================================
+带宽：1000 Mbps
+============================================================
+easy_5x5: 通关，8/8 步，token=422.9ms，kv=538.6ms，adaptive=422.9ms
+medium_6x6: 通关，10/10 步，token=485.4ms，kv=699.5ms，adaptive=485.4ms
+hard_7x7: 通关，24/24 步，token=1149.7ms，kv=1785.1ms，adaptive=1149.7ms
+
+========== 完整迷宫实验汇总 ==========
+                token_success  kv_success  ...  model_progress_rate  safety_fallback_moves
+bandwidth_mbps                             ...                                            
+1                         1.0         1.0  ...               0.8694                      8
+10                        1.0         1.0  ...               0.8694                      8
+100                       1.0         1.0  ...               0.8694                      8
+1000                      1.0         1.0  ...               0.8694                      8
+
+[4 rows x 10 columns]
+
+CSV 已保存：/home/lpdai/LLM Agent Communication/WWH/logs/experiments_20261009_202904.csv
+[LOG] 指标 JSON：/home/lpdai/LLM Agent Communication/WWH/logs/batch_experiment_20261009_202904.json

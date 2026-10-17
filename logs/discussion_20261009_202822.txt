@@ -1,0 +1,54 @@
+[LOG] 日志文件：/home/lpdai/LLM Agent Communication/WWH/logs/discussion_20261009_202822.txt
+[LOG] 开始时间：2026-10-09T20:28:22.045203
+[PC1] 正在加载模型：/home/lpdai/LLM Agent Communication/LLM Model/Qwen2.5-3B-Instruct
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   1%|1         | 5/434 [00:00<00:08, 48.56it/s]Loading weights:  15%|#4        | 63/434 [00:00<00:01, 325.76it/s]Loading weights:  26%|##5       | 111/434 [00:00<00:00, 376.40it/s]Loading weights:  39%|###9      | 171/434 [00:00<00:00, 430.14it/s]Loading weights:  50%|#####     | 219/434 [00:00<00:00, 444.65it/s]Loading weights:  62%|######1   | 267/434 [00:00<00:00, 443.80it/s]Loading weights:  73%|#######2  | 315/434 [00:00<00:00, 446.38it/s]Loading weights:  84%|########3 | 363/434 [00:00<00:00, 433.36it/s]Loading weights:  95%|#########5| 413/434 [00:00<00:00, 451.20it/s]Loading weights: 100%|##########| 434/434 [00:01<00:00, 429.74it/s]
+[PC1] 等待 PC2 连接：0.0.0.0:9002
+[PC1] PC2 已连接：127.0.0.1:36628
+
+============================================================
+走迷宫任务：PC1 发送 KV-Cache，PC2 发送 Token IDs
+   0 1 2 3 4
+0 * . . . .
+1 . # # # .
+2 . . . # .
+3 # . . # .
+4 . . . . G
+============================================================
+[Round 1] Agent-A -> Agent-B | PC1->PC2 | KV | payload=7688200B | E2E=1144ms
+    Agent-B 输出：'右 下'
+    模型提议：['右', '下'] -> 实际移动：['下', '下'] -> 位置 (2, 0)
+   0 1 2 3 4
+0 S . . . .
+1 o # # # .
+2 * . . # .
+3 # . . # .
+4 . . . . G
+[Round 2] Agent-B -> Agent-A | PC2->PC1 | TOKEN | payload=22B | E2E=261ms
+    Agent-A 输出：'右 下'
+    模型提议：['右', '下'] -> 实际移动：['右', '下'] -> 位置 (3, 1)
+   0 1 2 3 4
+0 S . . . .
+1 o # # # .
+2 o o . # .
+3 # * . # .
+4 . . . . G
+[Round 3] Agent-A -> Agent-B | PC1->PC2 | KV | payload=8646664B | E2E=118ms
+    Agent-B 输出：'右 下'
+    模型提议：['右', '下'] -> 实际移动：['下', '右'] -> 位置 (4, 2)
+   0 1 2 3 4
+0 S . . . .
+1 o # # # .
+2 o o . # .
+3 # o . # .
+4 . o * . G
+[Round 4] Agent-B -> Agent-A | PC2->PC1 | TOKEN | payload=22B | E2E=125ms
+    Agent-A 输出：'右 下'
+    模型提议：['右', '下'] -> 实际移动：['右', '右'] -> 位置 (4, 4)
+   0 1 2 3 4
+0 S . . . .
+1 o # # # .
+2 o o . # .
+3 # o . # .
+4 . o o o *
+[讨论结束] 第 4 轮到达终点 G！
+[LOG] 指标 JSON：/home/lpdai/LLM Agent Communication/WWH/logs/discussion_20261009_202836.json

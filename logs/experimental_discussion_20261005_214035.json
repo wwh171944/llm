@@ -1,0 +1,73 @@
+{
+  "type": "experimental_discussion",
+  "question": "向我介绍拉格朗日中值定理",
+  "protocol": {
+    "PC1->PC2": "kv",
+    "PC2->PC1": "token"
+  },
+  "num_rounds": 4,
+  "total_e2e_ms": 8169.7,
+  "turns": [
+    {
+      "round": 1,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "好的，我来介绍拉格朗日中值定理。\n\n拉格朗日中值定理是微积分中的一个重要定理，它描述了在函数连续的区间上，对于任意给定的点x0，存在一个点x1，使得在x0处的导数等于在x0和x1处的导数之差的绝对值的一半。具体来说，如果函数f在区间[a, b]上连续，且在点x0处的导数f'(x0)存在，那么在区间[a, b]上，对于任意x1在[a,",
+      "input_tokens": 75,
+      "output_tokens": 129,
+      "payload_bytes": 934979,
+      "prefill_ms": 152.0,
+      "decode_ms": 5462.0,
+      "tx_ms": 23.0,
+      "e2e_ms": 5637.0
+    },
+    {
+      "round": 2,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "好的，我来介绍一下拉格朗日中值定理。",
+      "input_tokens": 202,
+      "output_tokens": 15,
+      "payload_bytes": 105,
+      "prefill_ms": 642.97,
+      "decode_ms": 0.0,
+      "tx_ms": 1.0,
+      "e2e_ms": 643.97
+    },
+    {
+      "round": 3,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "好的，我来介绍一下拉格朗日中值定理。",
+      "input_tokens": 219,
+      "output_tokens": 14,
+      "payload_bytes": 2704451,
+      "prefill_ms": 48.74,
+      "decode_ms": 611.0,
+      "tx_ms": 25.0,
+      "e2e_ms": 684.74
+    },
+    {
+      "round": 4,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "接下来，Agent-A可以继续发言并介绍拉格朗日中值定理。",
+      "input_tokens": 236,
+      "output_tokens": 19,
+      "payload_bytes": 135,
+      "prefill_ms": 1200.0,
+      "decode_ms": 0.0,
+      "tx_ms": 3.0,
+      "e2e_ms": 1203.0
+    }
+  ],
+  "timestamp": "2026-10-05T21:40:35.665799"
+}

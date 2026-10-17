@@ -1,0 +1,172 @@
+[LOG] 日志文件：E:\llm_project\logs\batch_experiment_20261004_175429.txt
+[LOG] 开始时间：2026-10-04T17:54:29.867686
+
+============================================================
+输出长度上限：64 tokens
+============================================================
+
+----- 带宽：1 Mbps -----
+input_len=118, kv_seq_len=118, kv_kb=1416.00
+  [1/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=529.6ms kv=11668.4ms adapt=token
+input_len=130, kv_seq_len=130, kv_kb=1560.00
+  [2/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=251.8ms kv=12877.0ms adapt=token
+input_len=154, kv_seq_len=154, kv_kb=1848.00
+  [3/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=256.6ms kv=15233.4ms adapt=token
+input_len=238, kv_seq_len=238, kv_kb=2856.00
+  [4/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=277.2ms kv=23455.4ms adapt=token
+
+----- 带宽：10 Mbps -----
+input_len=118, kv_seq_len=118, kv_kb=1416.00
+  [1/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=205.5ms kv=1221.5ms adapt=token
+input_len=130, kv_seq_len=130, kv_kb=1560.00
+  [2/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=76.5ms kv=1316.5ms adapt=token
+input_len=154, kv_seq_len=154, kv_kb=1848.00
+  [3/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=92.5ms kv=1552.4ms adapt=token
+input_len=238, kv_seq_len=238, kv_kb=2856.00
+  [4/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=187.5ms kv=2395.2ms adapt=token
+
+----- 带宽：100 Mbps -----
+input_len=118, kv_seq_len=118, kv_kb=1416.00
+  [1/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=134.0ms kv=167.5ms adapt=token
+input_len=130, kv_seq_len=130, kv_kb=1560.00
+  [2/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=151.6ms kv=180.8ms adapt=token
+input_len=154, kv_seq_len=154, kv_kb=1848.00
+  [3/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=121.0ms kv=198.9ms adapt=token
+input_len=238, kv_seq_len=238, kv_kb=2856.00
+  [4/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=118.9ms kv=280.5ms adapt=token
+
+----- 带宽：1000 Mbps -----
+input_len=118, kv_seq_len=118, kv_kb=1416.00
+  [1/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=104.5ms kv=57.6ms adapt=kv
+input_len=130, kv_seq_len=130, kv_kb=1560.00
+  [2/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=109.6ms kv=57.3ms adapt=kv
+input_len=154, kv_seq_len=154, kv_kb=1848.00
+  [3/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=88.4ms kv=54.1ms adapt=kv
+input_len=238, kv_seq_len=238, kv_kb=2856.00
+  [4/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=82.5ms kv=62.9ms adapt=kv
+
+============================================================
+输出长度上限：128 tokens
+============================================================
+
+----- 带宽：1 Mbps -----
+input_len=118, kv_seq_len=118, kv_kb=1416.00
+  [1/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=77.5ms kv=11638.9ms adapt=token
+input_len=130, kv_seq_len=130, kv_kb=1560.00
+  [2/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=247.1ms kv=12875.6ms adapt=token
+input_len=154, kv_seq_len=154, kv_kb=1848.00
+  [3/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=260.1ms kv=15235.3ms adapt=token
+input_len=238, kv_seq_len=238, kv_kb=2856.00
+  [4/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=275.1ms kv=23486.9ms adapt=token
+
+----- 带宽：10 Mbps -----
+input_len=118, kv_seq_len=118, kv_kb=1416.00
+  [1/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=185.6ms kv=1209.0ms adapt=token
+input_len=130, kv_seq_len=130, kv_kb=1560.00
+  [2/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=77.5ms kv=1316.5ms adapt=token
+input_len=154, kv_seq_len=154, kv_kb=1848.00
+  [3/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=245.6ms kv=1614.4ms adapt=token
+input_len=238, kv_seq_len=238, kv_kb=2856.00
+  [4/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=78.2ms kv=2377.7ms adapt=token
+
+----- 带宽：100 Mbps -----
+input_len=118, kv_seq_len=118, kv_kb=1416.00
+  [1/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=235.6ms kv=220.5ms adapt=kv
+input_len=130, kv_seq_len=130, kv_kb=1560.00
+  [2/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=77.5ms kv=167.3ms adapt=token
+input_len=154, kv_seq_len=154, kv_kb=1848.00
+  [3/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=81.0ms kv=192.4ms adapt=token
+input_len=238, kv_seq_len=238, kv_kb=2856.00
+  [4/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=79.3ms kv=273.0ms adapt=token
+
+----- 带宽：1000 Mbps -----
+input_len=118, kv_seq_len=118, kv_kb=1416.00
+  [1/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=76.0ms kv=49.6ms adapt=kv
+input_len=130, kv_seq_len=130, kv_kb=1560.00
+  [2/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=76.5ms kv=50.8ms adapt=kv
+input_len=154, kv_seq_len=154, kv_kb=1848.00
+  [3/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=76.1ms kv=53.2ms adapt=kv
+input_len=238, kv_seq_len=238, kv_kb=2856.00
+  [4/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=79.7ms kv=62.6ms adapt=kv
+
+============================================================
+输出长度上限：256 tokens
+============================================================
+
+----- 带宽：1 Mbps -----
+input_len=118, kv_seq_len=118, kv_kb=1416.00
+  [1/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=78.0ms kv=11639.9ms adapt=token
+input_len=130, kv_seq_len=130, kv_kb=1560.00
+  [2/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=222.6ms kv=12850.1ms adapt=token
+input_len=154, kv_seq_len=154, kv_kb=1848.00
+  [3/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=213.7ms kv=15195.8ms adapt=token
+input_len=238, kv_seq_len=238, kv_kb=2856.00
+  [4/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=239.7ms kv=23459.4ms adapt=token
+
+----- 带宽：10 Mbps -----
+input_len=118, kv_seq_len=118, kv_kb=1416.00
+  [1/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=183.7ms kv=1198.1ms adapt=token
+input_len=130, kv_seq_len=130, kv_kb=1560.00
+  [2/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=76.5ms kv=1316.5ms adapt=token
+input_len=154, kv_seq_len=154, kv_kb=1848.00
+  [3/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=94.8ms kv=1554.9ms adapt=token
+input_len=238, kv_seq_len=238, kv_kb=2856.00
+  [4/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=192.7ms kv=2395.0ms adapt=token
+
+----- 带宽：100 Mbps -----
+input_len=118, kv_seq_len=118, kv_kb=1416.00
+  [1/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=130.0ms kv=167.5ms adapt=token
+input_len=130, kv_seq_len=130, kv_kb=1560.00
+  [2/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=145.0ms kv=179.3ms adapt=token
+input_len=154, kv_seq_len=154, kv_kb=1848.00
+  [3/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=126.0ms kv=199.9ms adapt=token
+input_len=238, kv_seq_len=238, kv_kb=2856.00
+  [4/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=121.0ms kv=280.5ms adapt=token
+
+----- 带宽：1000 Mbps -----
+input_len=118, kv_seq_len=118, kv_kb=1416.00
+  [1/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=110.3ms kv=56.6ms adapt=kv
+input_len=130, kv_seq_len=130, kv_kb=1560.00
+  [2/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=108.5ms kv=57.3ms adapt=kv
+input_len=154, kv_seq_len=154, kv_kb=1848.00
+  [3/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=101.5ms kv=53.6ms adapt=kv
+input_len=238, kv_seq_len=238, kv_kb=2856.00
+  [4/4] 你是走迷宫导航智能体。迷宫中 S 是起点... token=78.0ms kv=62.4ms adapt=kv
+
+CSV 已保存：E:\llm_project\logs\experiments_20261004_175818.csv
+
+========== 汇总（按带宽 + 输出长度）==========
+                               token_e2e    kv_e2e  ...  token_success  kv_success
+max_new_tokens bandwidth_mbps                       ...                           
+64             1                  328.82  15808.54  ...            1.0         1.0
+               10                 140.52   1621.38  ...            1.0         1.0
+               100                131.38    206.92  ...            1.0         1.0
+               1000                96.26     57.98  ...            1.0         1.0
+128            1                  214.94  15809.15  ...            1.0         1.0
+               10                 146.72   1629.40  ...            1.0         1.0
+               100                118.38    213.31  ...            1.0         1.0
+               1000                77.08     54.05  ...            1.0         1.0
+256            1                  188.50  15786.30  ...            1.0         1.0
+               10                 136.90   1616.12  ...            1.0         1.0
+               100                130.54    206.80  ...            1.0         1.0
+               1000                99.60     57.48  ...            1.0         1.0
+
+[12 rows x 6 columns]
+
+========== 自适应模式选择分布 ==========
+max_new_tokens  bandwidth_mbps  adaptive_mode
+64              1               token            4
+                10              token            4
+                100             token            4
+                1000            kv               4
+128             1               token            4
+                10              token            4
+                100             kv               1
+                                token            3
+                1000            kv               4
+256             1               token            4
+                10              token            4
+                100             token            4
+                1000            kv               4
+dtype: int64
+[LOG] 指标 JSON：E:\llm_project\logs\batch_experiment_20261004_175818.json

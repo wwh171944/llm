@@ -1,0 +1,73 @@
+{
+  "type": "experimental_discussion",
+  "question": "介绍一下拉格朗日定理",
+  "protocol": {
+    "PC1->PC2": "kv",
+    "PC2->PC1": "token"
+  },
+  "num_rounds": 4,
+  "total_e2e_ms": 5591.0,
+  "turns": [
+    {
+      "round": 1,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "拉格朗日定理是微积分中的一个重要定理，它描述了函数在某点的局部极值。关键在于，它提供了函数在某点的局部极值的定义，即在该点的局部最大值和局部最小值。",
+      "input_tokens": 105,
+      "output_tokens": 55,
+      "payload_bytes": 1303619,
+      "prefill_ms": 179.0,
+      "decode_ms": 2340.0,
+      "tx_ms": 24.0,
+      "e2e_ms": 2543.0
+    },
+    {
+      "round": 2,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "拉格朗日定理的核心在于描述函数在某点的局部极值，而不仅仅是全局极值。",
+      "input_tokens": 162,
+      "output_tokens": 25,
+      "payload_bytes": 178,
+      "prefill_ms": 1020.0,
+      "decode_ms": 0.0,
+      "tx_ms": 2.0,
+      "e2e_ms": 1022.0
+    },
+    {
+      "round": 3,
+      "sender": "Agent-A",
+      "receiver": "Agent-B",
+      "direction": "PC1->PC2",
+      "mode": "kv",
+      "content": "拉格朗日定理的核心在于描述函数在某点的局部极值，而不是全局极值。",
+      "input_tokens": 194,
+      "output_tokens": 23,
+      "payload_bytes": 2397251,
+      "prefill_ms": 43.0,
+      "decode_ms": 971.0,
+      "tx_ms": 26.0,
+      "e2e_ms": 1040.0
+    },
+    {
+      "round": 4,
+      "sender": "Agent-B",
+      "receiver": "Agent-A",
+      "direction": "PC2->PC1",
+      "mode": "token",
+      "content": "拉格朗日定理的核心在于描述函数在某点的局部极值，而非全局极值。",
+      "input_tokens": 217,
+      "output_tokens": 24,
+      "payload_bytes": 171,
+      "prefill_ms": 984.0,
+      "decode_ms": 0.0,
+      "tx_ms": 2.0,
+      "e2e_ms": 986.0
+    }
+  ],
+  "timestamp": "2026-10-05T21:56:13.761948"
+}

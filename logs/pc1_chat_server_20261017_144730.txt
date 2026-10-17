@@ -1,0 +1,29 @@
+[LOG] 日志文件：E:\llm_project\logs\pc1_chat_server_20261017_144730.txt
+[LOG] 开始时间：2026-10-17T14:47:30.067573
+Traceback (most recent call last):
+  File "E:\conda_envs\llm\lib\site-packages\transformers\utils\hub.py", line 403, in cached_file
+    resolved_file = hf_hub_download(
+  File "E:\conda_envs\llm\lib\site-packages\huggingface_hub\utils\_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "E:\conda_envs\llm\lib\site-packages\huggingface_hub\utils\_validators.py", line 160, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must use alphanumeric chars, '-', '_' or '.'. The name cannot start or end with '-' or '.' and the maximum length is 96: 'E:\llm_project\models\Qwen2.5-0.5B-Instruct'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\llm_project\pc1_chat_server.py", line 442, in <module>
+    main()
+  File "E:\llm_project\pc1_chat_server.py", line 435, in main
+    create_app(args.host, args.port, args.timeout, args.model_path),
+  File "E:\llm_project\pc1_chat_server.py", line 198, in create_app
+    pc1_agent = load_agent(model_path)
+  File "E:\llm_project\pc1_chat_server.py", line 185, in load_agent
+    tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
+  File "E:\conda_envs\llm\lib\site-packages\transformers\models\auto\tokenization_auto.py", line 857, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "E:\conda_envs\llm\lib\site-packages\transformers\models\auto\tokenization_auto.py", line 689, in get_tokenizer_config
+    resolved_config_file = cached_file(
+  File "E:\conda_envs\llm\lib\site-packages\transformers\utils\hub.py", line 469, in cached_file
+    raise EnvironmentError(
+OSError: Incorrect path_or_model_id: 'E:\llm_project\models\Qwen2.5-0.5B-Instruct'. Please provide either the path to a local folder or the repo_id of a model on the Hub.

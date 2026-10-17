@@ -1,0 +1,17 @@
+[LOG] 日志文件：E:\llm_project\logs\batch_experiment_20261006_132801.txt
+[LOG] 开始时间：2026-10-06T13:28:01.170748
+
+============================================================
+带宽：1000 Mbps
+============================================================
+easy_5x5: 通关，8/8 步，token=1537.4ms，kv=547.8ms，adaptive=547.8ms
+
+========== 完整迷宫实验汇总 ==========
+                token_success  ...  safety_fallback_moves
+bandwidth_mbps                 ...                       
+1000.0                    1.0  ...                      7
+
+[1 rows x 10 columns]
+
+CSV 已保存：E:\llm_project\logs\experiments_20261006_132811.csv
+[LOG] 指标 JSON：E:\llm_project\logs\batch_experiment_20261006_132811.json

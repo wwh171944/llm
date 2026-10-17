@@ -1,0 +1,217 @@
+{
+  "num_questions": 4,
+  "bandwidths_mbps": [
+    1,
+    10,
+    100,
+    1000
+  ],
+  "output_lengths": [
+    64,
+    128,
+    256
+  ],
+  "csv_path": "E:\\llm_project\\logs\\experiments_20261004_175818.csv",
+  "summary": [
+    {
+      "max_new_tokens": 64,
+      "bandwidth_mbps": 1,
+      "token_e2e": 328.82,
+      "kv_e2e": 15808.54,
+      "adaptive_e2e": 328.82,
+      "kv_kb": 1920.0,
+      "token_success": 1.0,
+      "kv_success": 1.0
+    },
+    {
+      "max_new_tokens": 64,
+      "bandwidth_mbps": 10,
+      "token_e2e": 140.52,
+      "kv_e2e": 1621.38,
+      "adaptive_e2e": 140.52,
+      "kv_kb": 1920.0,
+      "token_success": 1.0,
+      "kv_success": 1.0
+    },
+    {
+      "max_new_tokens": 64,
+      "bandwidth_mbps": 100,
+      "token_e2e": 131.38,
+      "kv_e2e": 206.92,
+      "adaptive_e2e": 131.38,
+      "kv_kb": 1920.0,
+      "token_success": 1.0,
+      "kv_success": 1.0
+    },
+    {
+      "max_new_tokens": 64,
+      "bandwidth_mbps": 1000,
+      "token_e2e": 96.26,
+      "kv_e2e": 57.98,
+      "adaptive_e2e": 57.98,
+      "kv_kb": 1920.0,
+      "token_success": 1.0,
+      "kv_success": 1.0
+    },
+    {
+      "max_new_tokens": 128,
+      "bandwidth_mbps": 1,
+      "token_e2e": 214.94,
+      "kv_e2e": 15809.15,
+      "adaptive_e2e": 214.94,
+      "kv_kb": 1920.0,
+      "token_success": 1.0,
+      "kv_success": 1.0
+    },
+    {
+      "max_new_tokens": 128,
+      "bandwidth_mbps": 10,
+      "token_e2e": 146.72,
+      "kv_e2e": 1629.4,
+      "adaptive_e2e": 146.72,
+      "kv_kb": 1920.0,
+      "token_success": 1.0,
+      "kv_success": 1.0
+    },
+    {
+      "max_new_tokens": 128,
+      "bandwidth_mbps": 100,
+      "token_e2e": 118.38,
+      "kv_e2e": 213.31,
+      "adaptive_e2e": 114.6,
+      "kv_kb": 1920.0,
+      "token_success": 1.0,
+      "kv_success": 1.0
+    },
+    {
+      "max_new_tokens": 128,
+      "bandwidth_mbps": 1000,
+      "token_e2e": 77.08,
+      "kv_e2e": 54.05,
+      "adaptive_e2e": 54.05,
+      "kv_kb": 1920.0,
+      "token_success": 1.0,
+      "kv_success": 1.0
+    },
+    {
+      "max_new_tokens": 256,
+      "bandwidth_mbps": 1,
+      "token_e2e": 188.5,
+      "kv_e2e": 15786.3,
+      "adaptive_e2e": 188.5,
+      "kv_kb": 1920.0,
+      "token_success": 1.0,
+      "kv_success": 1.0
+    },
+    {
+      "max_new_tokens": 256,
+      "bandwidth_mbps": 10,
+      "token_e2e": 136.9,
+      "kv_e2e": 1616.12,
+      "adaptive_e2e": 136.9,
+      "kv_kb": 1920.0,
+      "token_success": 1.0,
+      "kv_success": 1.0
+    },
+    {
+      "max_new_tokens": 256,
+      "bandwidth_mbps": 100,
+      "token_e2e": 130.54,
+      "kv_e2e": 206.8,
+      "adaptive_e2e": 130.54,
+      "kv_kb": 1920.0,
+      "token_success": 1.0,
+      "kv_success": 1.0
+    },
+    {
+      "max_new_tokens": 256,
+      "bandwidth_mbps": 1000,
+      "token_e2e": 99.6,
+      "kv_e2e": 57.48,
+      "adaptive_e2e": 57.48,
+      "kv_kb": 1920.0,
+      "token_success": 1.0,
+      "kv_success": 1.0
+    }
+  ],
+  "adaptive_mode_distribution": [
+    {
+      "max_new_tokens": 64,
+      "bandwidth_mbps": 1,
+      "adaptive_mode": "token",
+      "count": 4
+    },
+    {
+      "max_new_tokens": 64,
+      "bandwidth_mbps": 10,
+      "adaptive_mode": "token",
+      "count": 4
+    },
+    {
+      "max_new_tokens": 64,
+      "bandwidth_mbps": 100,
+      "adaptive_mode": "token",
+      "count": 4
+    },
+    {
+      "max_new_tokens": 64,
+      "bandwidth_mbps": 1000,
+      "adaptive_mode": "kv",
+      "count": 4
+    },
+    {
+      "max_new_tokens": 128,
+      "bandwidth_mbps": 1,
+      "adaptive_mode": "token",
+      "count": 4
+    },
+    {
+      "max_new_tokens": 128,
+      "bandwidth_mbps": 10,
+      "adaptive_mode": "token",
+      "count": 4
+    },
+    {
+      "max_new_tokens": 128,
+      "bandwidth_mbps": 100,
+      "adaptive_mode": "kv",
+      "count": 1
+    },
+    {
+      "max_new_tokens": 128,
+      "bandwidth_mbps": 100,
+      "adaptive_mode": "token",
+      "count": 3
+    },
+    {
+      "max_new_tokens": 128,
+      "bandwidth_mbps": 1000,
+      "adaptive_mode": "kv",
+      "count": 4
+    },
+    {
+      "max_new_tokens": 256,
+      "bandwidth_mbps": 1,
+      "adaptive_mode": "token",
+      "count": 4
+    },
+    {
+      "max_new_tokens": 256,
+      "bandwidth_mbps": 10,
+      "adaptive_mode": "token",
+      "count": 4
+    },
+    {
+      "max_new_tokens": 256,
+      "bandwidth_mbps": 100,
+      "adaptive_mode": "token",
+      "count": 4
+    },
+    {
+      "max_new_tokens": 256,
+      "bandwidth_mbps": 1000,
+      "adaptive_mode": "kv",
+      "count": 4
+    }
+  ]
+}

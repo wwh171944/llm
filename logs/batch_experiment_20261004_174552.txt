@@ -1,0 +1,174 @@
+[LOG] 日志文件：E:\llm_project\logs\batch_experiment_20261004_174552.txt
+[LOG] 开始时间：2026-10-04T17:45:52.601004
+
+============================================================
+输出长度上限：64 tokens
+============================================================
+
+----- 带宽：1 Mbps -----
+input_len=44, kv_seq_len=44, kv_kb=528.00
+  [1/4] 请计算：12 + 23 等于多少？... token=1023.9ms kv=4916.7ms adapt=token
+input_len=49, kv_seq_len=49, kv_kb=588.00
+  [2/4] 请计算：12 + 23 等于多少？请一步... token=2645.0ms kv=7422.4ms adapt=token
+input_len=92, kv_seq_len=92, kv_kb=1104.00
+  [3/4] 请计算：12 + 23 等于多少？请一步... token=2850.1ms kv=11747.1ms adapt=token
+input_len=204, kv_seq_len=204, kv_kb=2448.00
+  [4/4] 请计算：12 + 23 等于多少？请一步... token=2770.2ms kv=22632.2ms adapt=token
+
+----- 带宽：10 Mbps -----
+input_len=44, kv_seq_len=44, kv_kb=528.00
+  [1/4] 请计算：12 + 23 等于多少？... token=946.3ms kv=1266.3ms adapt=token
+input_len=49, kv_seq_len=49, kv_kb=588.00
+  [2/4] 请计算：12 + 23 等于多少？请一步... token=3132.8ms kv=3564.4ms adapt=token
+input_len=92, kv_seq_len=92, kv_kb=1104.00
+  [3/4] 请计算：12 + 23 等于多少？请一步... token=3037.0ms kv=3895.9ms adapt=token
+input_len=204, kv_seq_len=204, kv_kb=2448.00
+  [4/4] 请计算：12 + 23 等于多少？请一步... token=2699.9ms kv=4658.8ms adapt=token
+
+----- 带宽：100 Mbps -----
+input_len=44, kv_seq_len=44, kv_kb=528.00
+  [1/4] 请计算：12 + 23 等于多少？... token=718.9ms kv=714.9ms adapt=kv
+input_len=49, kv_seq_len=49, kv_kb=588.00
+  [2/4] 请计算：12 + 23 等于多少？请一步... token=2886.2ms kv=2894.3ms adapt=token
+input_len=92, kv_seq_len=92, kv_kb=1104.00
+  [3/4] 请计算：12 + 23 等于多少？请一步... token=2861.5ms kv=2897.4ms adapt=token
+input_len=204, kv_seq_len=204, kv_kb=2448.00
+  [4/4] 请计算：12 + 23 等于多少？请一步... token=3461.8ms kv=3615.4ms adapt=token
+
+----- 带宽：1000 Mbps -----
+input_len=44, kv_seq_len=44, kv_kb=528.00
+  [1/4] 请计算：12 + 23 等于多少？... token=846.6ms kv=796.4ms adapt=kv
+input_len=49, kv_seq_len=49, kv_kb=588.00
+  [2/4] 请计算：12 + 23 等于多少？请一步... token=3034.0ms kv=2981.3ms adapt=kv
+input_len=92, kv_seq_len=92, kv_kb=1104.00
+  [3/4] 请计算：12 + 23 等于多少？请一步... token=3217.1ms kv=3163.6ms adapt=kv
+input_len=204, kv_seq_len=204, kv_kb=2448.00
+  [4/4] 请计算：12 + 23 等于多少？请一步... token=2987.0ms kv=2945.6ms adapt=kv
+
+============================================================
+输出长度上限：128 tokens
+============================================================
+
+----- 带宽：1 Mbps -----
+input_len=44, kv_seq_len=44, kv_kb=528.00
+  [1/4] 请计算：12 + 23 等于多少？... token=615.5ms kv=4899.7ms adapt=token
+input_len=49, kv_seq_len=49, kv_kb=588.00
+  [2/4] 请计算：12 + 23 等于多少？请一步... token=4317.7ms kv=8948.6ms adapt=token
+input_len=92, kv_seq_len=92, kv_kb=1104.00
+  [3/4] 请计算：12 + 23 等于多少？请一步... token=5319.5ms kv=14226.3ms adapt=token
+input_len=204, kv_seq_len=204, kv_kb=2448.00
+  [4/4] 请计算：12 + 23 等于多少？请一步... token=4086.1ms kv=23941.1ms adapt=token
+
+----- 带宽：10 Mbps -----
+input_len=44, kv_seq_len=44, kv_kb=528.00
+  [1/4] 请计算：12 + 23 等于多少？... token=780.8ms kv=1099.7ms adapt=token
+input_len=49, kv_seq_len=49, kv_kb=588.00
+  [2/4] 请计算：12 + 23 等于多少？请一步... token=4100.9ms kv=4543.5ms adapt=token
+input_len=92, kv_seq_len=92, kv_kb=1104.00
+  [3/4] 请计算：12 + 23 等于多少？请一步... token=5706.3ms kv=6558.0ms adapt=token
+input_len=204, kv_seq_len=204, kv_kb=2448.00
+  [4/4] 请计算：12 + 23 等于多少？请一步... token=3880.3ms kv=5826.1ms adapt=token
+
+----- 带宽：100 Mbps -----
+input_len=44, kv_seq_len=44, kv_kb=528.00
+  [1/4] 请计算：12 + 23 等于多少？... token=705.9ms kv=683.6ms adapt=kv
+input_len=49, kv_seq_len=49, kv_kb=588.00
+  [2/4] 请计算：12 + 23 等于多少？请一步... token=4090.7ms kv=4099.4ms adapt=token
+input_len=92, kv_seq_len=92, kv_kb=1104.00
+  [3/4] 请计算：12 + 23 等于多少？请一步... token=5360.2ms kv=5391.2ms adapt=token
+input_len=204, kv_seq_len=204, kv_kb=2448.00
+  [4/4] 请计算：12 + 23 等于多少？请一步... token=3904.2ms kv=4054.3ms adapt=token
+
+----- 带宽：1000 Mbps -----
+input_len=44, kv_seq_len=44, kv_kb=528.00
+  [1/4] 请计算：12 + 23 等于多少？... token=609.1ms kv=572.2ms adapt=kv
+input_len=49, kv_seq_len=49, kv_kb=588.00
+  [2/4] 请计算：12 + 23 等于多少？请一步... token=4569.3ms kv=4532.8ms adapt=kv
+input_len=92, kv_seq_len=92, kv_kb=1104.00
+  [3/4] 请计算：12 + 23 等于多少？请一步... token=5669.6ms kv=5635.2ms adapt=kv
+input_len=204, kv_seq_len=204, kv_kb=2448.00
+  [4/4] 请计算：12 + 23 等于多少？请一步... token=3796.2ms kv=3764.8ms adapt=kv
+
+============================================================
+输出长度上限：256 tokens
+============================================================
+
+----- 带宽：1 Mbps -----
+input_len=44, kv_seq_len=44, kv_kb=528.00
+  [1/4] 请计算：12 + 23 等于多少？... token=611.1ms kv=4896.3ms adapt=token
+input_len=49, kv_seq_len=49, kv_kb=588.00
+  [2/4] 请计算：12 + 23 等于多少？请一步... token=4355.6ms kv=9052.2ms adapt=token
+input_len=92, kv_seq_len=92, kv_kb=1104.00
+  [3/4] 请计算：12 + 23 等于多少？请一步... token=7682.7ms kv=16545.6ms adapt=token
+input_len=204, kv_seq_len=204, kv_kb=2448.00
+  [4/4] 请计算：12 + 23 等于多少？请一步... token=4013.6ms kv=23881.0ms adapt=token
+
+----- 带宽：10 Mbps -----
+input_len=44, kv_seq_len=44, kv_kb=528.00
+  [1/4] 请计算：12 + 23 等于多少？... token=742.7ms kv=1062.9ms adapt=token
+input_len=49, kv_seq_len=49, kv_kb=588.00
+  [2/4] 请计算：12 + 23 等于多少？请一步... token=4181.2ms kv=4607.4ms adapt=token
+input_len=92, kv_seq_len=92, kv_kb=1104.00
+  [3/4] 请计算：12 + 23 等于多少？请一步... token=7038.7ms kv=7902.6ms adapt=token
+input_len=204, kv_seq_len=204, kv_kb=2448.00
+  [4/4] 请计算：12 + 23 等于多少？请一步... token=3748.2ms kv=5678.1ms adapt=token
+
+----- 带宽：100 Mbps -----
+input_len=44, kv_seq_len=44, kv_kb=528.00
+  [1/4] 请计算：12 + 23 等于多少？... token=657.0ms kv=635.1ms adapt=kv
+input_len=49, kv_seq_len=49, kv_kb=588.00
+  [2/4] 请计算：12 + 23 等于多少？请一步... token=4234.1ms kv=4243.4ms adapt=token
+input_len=92, kv_seq_len=92, kv_kb=1104.00
+  [3/4] 请计算：12 + 23 等于多少？请一步... token=7019.5ms kv=7070.0ms adapt=token
+input_len=204, kv_seq_len=204, kv_kb=2448.00
+  [4/4] 请计算：12 + 23 等于多少？请一步... token=3767.5ms kv=3917.6ms adapt=token
+
+----- 带宽：1000 Mbps -----
+input_len=44, kv_seq_len=44, kv_kb=528.00
+  [1/4] 请计算：12 + 23 等于多少？... token=624.7ms kv=588.1ms adapt=kv
+input_len=49, kv_seq_len=49, kv_kb=588.00
+  [2/4] 请计算：12 + 23 等于多少？请一步... token=4140.6ms kv=4106.0ms adapt=kv
+input_len=92, kv_seq_len=92, kv_kb=1104.00
+  [3/4] 请计算：12 + 23 等于多少？请一步... token=7057.7ms kv=7025.2ms adapt=kv
+input_len=204, kv_seq_len=204, kv_kb=2448.00
+  [4/4] 请计算：12 + 23 等于多少？请一步... token=3862.0ms kv=3828.9ms adapt=kv
+
+CSV 已保存：E:\llm_project\logs\experiments_20261004_175053.csv
+
+========== 汇总（按带宽 + 输出长度）==========
+                               token_e2e    kv_e2e  ...  token_success  kv_success
+max_new_tokens bandwidth_mbps                       ...                           
+64             1                 2322.30  11679.62  ...           0.50        0.50
+               10                2454.02   3346.34  ...           0.50        0.50
+               100               2482.12   2530.49  ...           0.50        0.50
+               1000              2521.18   2471.73  ...           0.50        0.50
+128            1                 3584.71  13003.93  ...           0.50        0.50
+               10                3617.07   4506.84  ...           0.50        0.50
+               100               3515.27   3557.10  ...           0.50        0.50
+               1000              3661.06   3626.23  ...           0.50        0.50
+256            1                 4165.78  13593.76  ...           0.75        0.75
+               10                3927.69   4812.73  ...           0.75        0.75
+               100               3919.55   3966.51  ...           0.75        0.75
+               1000              3921.27   3887.05  ...           0.75        0.75
+
+[12 rows x 6 columns]
+
+========== 自适应模式选择分布 ==========
+max_new_tokens  bandwidth_mbps  adaptive_mode
+64              1               token            4
+                10              token            4
+                100             kv               1
+                                token            3
+                1000            kv               4
+128             1               token            4
+                10              token            4
+                100             kv               1
+                                token            3
+                1000            kv               4
+256             1               token            4
+                10              token            4
+                100             kv               1
+                                token            3
+                1000            kv               4
+dtype: int64
+[LOG] 指标 JSON：E:\llm_project\logs\batch_experiment_20261004_175053.json

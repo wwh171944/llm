@@ -1,0 +1,80 @@
+{
+  "experiment_type": "full_maze_completion",
+  "num_mazes": 3,
+  "bandwidths_mbps": [
+    1,
+    10,
+    100,
+    1000
+  ],
+  "max_new_tokens": 16,
+  "csv_path": "E:\\llm_project\\logs\\experiments_20261006_144702.csv",
+  "summary": [
+    {
+      "bandwidth_mbps": 1,
+      "token_success": 1.0,
+      "kv_success": 1.0,
+      "adaptive_success": 1.0,
+      "token_e2e_ms": 1643.51,
+      "kv_e2e_ms": 230613.38,
+      "adaptive_e2e_ms": 1643.51,
+      "completed_steps": 14.0,
+      "path_efficiency": 1.0,
+      "model_progress_rate": 0.1028,
+      "safety_fallback_moves": 38
+    },
+    {
+      "bandwidth_mbps": 10,
+      "token_success": 1.0,
+      "kv_success": 1.0,
+      "adaptive_success": 1.0,
+      "token_e2e_ms": 1515.5533,
+      "kv_e2e_ms": 23743.2733,
+      "adaptive_e2e_ms": 1515.5533,
+      "completed_steps": 14.0,
+      "path_efficiency": 1.0,
+      "model_progress_rate": 0.1028,
+      "safety_fallback_moves": 38
+    },
+    {
+      "bandwidth_mbps": 100,
+      "token_success": 1.0,
+      "kv_success": 1.0,
+      "adaptive_success": 1.0,
+      "token_e2e_ms": 1443.4367,
+      "kv_e2e_ms": 3018.1567,
+      "adaptive_e2e_ms": 1443.4367,
+      "completed_steps": 14.0,
+      "path_efficiency": 1.0,
+      "model_progress_rate": 0.1028,
+      "safety_fallback_moves": 38
+    },
+    {
+      "bandwidth_mbps": 1000,
+      "token_success": 1.0,
+      "kv_success": 1.0,
+      "adaptive_success": 1.0,
+      "token_e2e_ms": 1500.6767,
+      "kv_e2e_ms": 984.7833,
+      "adaptive_e2e_ms": 984.7833,
+      "completed_steps": 14.0,
+      "path_efficiency": 1.0,
+      "model_progress_rate": 0.1028,
+      "safety_fallback_moves": 38
+    }
+  ],
+  "mazes": [
+    {
+      "name": "easy_5x5",
+      "difficulty": "简单"
+    },
+    {
+      "name": "medium_6x6",
+      "difficulty": "中等"
+    },
+    {
+      "name": "hard_7x7",
+      "difficulty": "困难"
+    }
+  ]
+}
